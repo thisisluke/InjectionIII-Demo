@@ -16,10 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        
+        
+        
+        // 通过 App Store 下载 InjectionIII 这个应用
+        
+        // 键入以下代码
         #if DEBUG
-        //for iOS
         Bundle(path: "/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle")?.load()
         #endif
+        
+        // 打开此工程的情况下，打开刚刚下载的 InjectionIII，系统状态栏会出现 logo
+        // 点击 InjectionIII 中的 Open Project
+        // 选择此工程的目录
+        // 保证 InjectionIII 的 File Watcher 选中
+        // 然后去 ViewController 中修改代码
         
         return true
     }
