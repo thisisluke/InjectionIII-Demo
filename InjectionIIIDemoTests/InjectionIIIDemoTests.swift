@@ -2,8 +2,8 @@
 //  InjectionIIIDemoTests.swift
 //  InjectionIIIDemoTests
 //
-//  Created by 刘长虹 on 2018/6/15.
-//  Copyright © 2018 刘长虹. All rights reserved.
+//  Created by Luke on 2018/6/15.
+//  Copyright © 2018 Luke. All rights reserved.
 //
 
 import XCTest
